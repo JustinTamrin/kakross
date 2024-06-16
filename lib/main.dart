@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kakross/view/postsigninview.dart';
 import 'package:kakross/view/signinview.dart';
 import 'package:kakross/view/splashview.dart';
 import 'constants/route.dart';
@@ -11,5 +12,6 @@ void main() {
       routes: {
         splashView: (context) => const SplashView(),
         loginView: (context) => const SignInView(),
+        postSignInView: (context) => const PostSignInView(),
       }));
 }
